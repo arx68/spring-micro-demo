@@ -3,4 +3,10 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.6" />
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-server.main" options="--add-modules java.base" />
+    </option>
+  </component>
 </project>
